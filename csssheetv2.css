@@ -11,16 +11,20 @@ a {
 li {
 	display: inline-block;
 	list-style-type: none;
+	padding: 0 8px 0 8px;
 }
 
 form {
-	margin-left: 450px;
+	margin-left: 350px;
+	width: 100%;
 }
 
 .image{
-	height: 70px;
-	width: 220px;
-	margin-left: 470px;
+	height: 100px;
+	width: 300px;
+	margin-left: 472px;
+	padding-top: 110px;
+	padding-bottom: 7px;
 }
 
 }
@@ -28,11 +32,13 @@ form {
 .hlist {
 	margin-left: 900px;
 	margin-top: -15px;
+	padding: 0 8px 0 8px;
 }
 
-.hlist:li {
+li.hlist {
 	margin: 0 -10px 15px 0;
-	padding: 8px;
+	padding: 0 8px 0 8px;
+	font-size: .4em;
 }
 
 
@@ -47,8 +53,8 @@ form {
 }
 
 input[type=text] {
-	width: 320px;
-	height: 30px;
+	width: 540px;
+	height: 32px;
 	border: solid 1px gray;
 }
 
@@ -60,6 +66,6 @@ button {
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.2em;
-	margin-left: 3px;
+	margin-left: 70px;
 	height: 40px;
 }
