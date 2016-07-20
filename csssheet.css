@@ -8,16 +8,17 @@ a:hover {
 	text-decoration: underline;
 }
 
+body {
+	height: 100%;
+	background-color: red
+}
+
 ul{
 	list-style-type: none;
 }
 
 li {
 	display: inline-block;
-}
-
-body{
-	position: relative;
 }
 
 input[type=search] {
@@ -50,12 +51,15 @@ body div img {
 }
 
 .header {
-	position:relative;
+	position: fixed;
 	float: right;
 	margin-bottom: 200px;
 	font-size: .9em;
 	font-family: arial;
 	right: 20px;
+	background-color: yellow;\
+	width: 100%;
+	height: 17%;
 }
 
 .footer {
@@ -66,6 +70,7 @@ body div img {
 	width: 100%;
 	border: 1px solid #e6e6e6;
 	margin-top: 200px;
+	background-color: blue;
 }
 
 .lf {
