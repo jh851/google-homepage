@@ -1,62 +1,40 @@
-body {
-	float: center;
-	clear: both;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-}
-
 p {
 	font-family: arial;
 }
 
 a {
 	text-decoration: none;
-	font-color: black;
+	color: black;
+
 }
 
-#header {
-	background-color: blue;
-	width: 30%;
-	height: 70px;
-	position: relative;
-	float: right;
+li {
 	display: inline-block;
+	list-style-type: none;
 }
 
-
-#search {
-	padding-top: 160px;
-	padding-bottom: 160px;
-	background-color: red;
-	width: 100%;
-	margin: 150 350 150 350;
-	position: center;
-	clear: both;
+form {
+	margin-left: 450px;
 }
 
-#search:p {
-
-}
-#footer {
-	background-color: gray;
-	border: 1px solid black;
-	clear: both;
-	float: bottom;
-	width: 100%;
-	height: 45px;
-	position: relative;
+.image{
+	height: 70px;
+	width: 220px;
+	margin-left: 470px;
 }
 
-.lffoot {
-	float: left;
-	background-color: purple;
 }
 
-.rffoot {
-	float: right;
-	background-color: #ccc;
+.hlist {
+	margin-left: 900px;
+	margin-top: -15px;
 }
+
+.hlist:li {
+	margin: 0 -10px 15px 0;
+	padding: 8px;
+}
+
 
 #grid{
 	height: 22px;
@@ -68,9 +46,20 @@ a {
 	width: 22px;
 }
 
-#hlist {
-	display: inline-block;
-	list-style-type: none;
+input[type=text] {
+	width: 320px;
+	height: 30px;
+	border: solid 1px gray;
+}
 
-
+button {
+	background-color: gray;
+	border: none;
+	color: black;
+	padding: 7px 14px 10px 14px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.2em;
+	margin-left: 3px;
+	height: 40px;
 }
