@@ -5,7 +5,16 @@ p {
 a {
 	text-decoration: none;
 	color: black;
+	display: block;
+}
 
+body {
+	display: block;
+}
+
+a.hover {
+	font-color: blue;
+	text-decoration: underline;
 }
 
 li {
@@ -19,6 +28,10 @@ form {
 	width: 100%;
 }
 
+.head {
+	width: 100%;
+}
+
 .image{
 	height: 100px;
 	width: 300px;
@@ -27,29 +40,30 @@ form {
 	padding-bottom: 7px;
 }
 
+head {
+	position: absolute;
 }
 
 .hlist {
-	margin-left: 900px;
-	margin-top: -15px;
-	padding: 0 8px 0 8px;
-}
-
-li.hlist {
-	margin: 0 -10px 15px 0;
-	padding: 0 8px 0 8px;
-	font-size: .4em;
+	position: relative;
+	left: 900px;
 }
 
 
-#grid{
+
+
+.grid{
 	height: 22px;
 	width: 22px;
 }
 
-#bell {
+.bell {
 	height: 22px;
 	width: 22px;
+}
+.bsp {
+	display: block;
+	margin-left: 80px;
 }
 
 input[type=text] {
@@ -59,13 +73,50 @@ input[type=text] {
 }
 
 button {
-	background-color: gray;
+	/*background-color: gray; */
 	border: none;
 	color: black;
-	padding: 7px 14px 10px 14px;
 	text-align: center;
 	text-decoration: none;
-	font-size: 1.2em;
-	margin-left: 70px;
-	height: 40px;
+	font-size: .9em;
+	height: 35px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.searchf {
+	height: 390px;
+}
+
+.sb1 {
+	margin-left: 35px;
+	width: 130px;
+}
+
+.sb2 {
+	margin-left: 10px;
+	width: 180px;
+}
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	margin-top: -17px;
+	font-size: .8em;
+	font-family: arial;
+	border: 1px solid #d9d9d9;
+	background-color: #e6e6e6;
+}
+
+.lf {
+	position: relative;
+	display: inline-block;
+	left: -20px;
+}
+
+.rf {
+	position: relative;
+	left: 750px;
+	display: inline-block;
 }
